@@ -13,6 +13,7 @@ function fetchCountryData(countryName) {
         })
         .catch(error => {
             document.getElementById('country-info').textContent = error.message;
+            document.getElementById('bordering-countries').textContent = '';
         });
 }
 
