@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+input, button {
+    margin: 10px 0;
+    color: rgb(76, 75, 75);
+}
+
+#countryInfo {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#neighbours {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.neighbours, .country-info {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.country-flag, .border-flags {
+    align-self: center; 
+    max-width: 100%; 
+    height: auto;
+}
+
+.border-flags {
+    height: 20px;
+    margin-left: 100px; 
+    object-fit: contain;
+    margin-right: 0px;
+    align-items: end;
+    
+    
+}
+
+.country-flag {
+    width: 230px;
+
+}
+
+.neighbours p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+#countryInfo {
+    padding-left: 20px; 
+}
+
+.neighbours span {
+    width: 140px;
+    display: inline-block;
+    text-align: left; 
+}
+
+
