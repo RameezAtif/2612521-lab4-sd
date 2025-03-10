@@ -53,9 +53,9 @@ input, button {
 
 .neighbours p {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: flex-start; 
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 0;
 }
 
